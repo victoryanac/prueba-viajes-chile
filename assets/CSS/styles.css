@@ -38,3 +38,8 @@ h1{
     width: 100%;
 }
 
+/* seccion destacados (CARD) */
+.card-body{
+    background-color: #0dcaf0;
+    color: white;
+}
