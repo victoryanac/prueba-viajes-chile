@@ -9,10 +9,13 @@ body {
 section {
     margin: 5% 10%;
 }
-h1{
+
+h1 {
     text-align: center;
     margin-bottom: 5%;
+    font-weight: 700;
 }
+
 /* navbar */
 .navbar-brand {
     color: white;
@@ -27,7 +30,7 @@ h1{
 }
 
 .navbar-scrolled {
-    background-color: #0dcaf0a9 !important;
+    background-color: #0dcaf0ee !important;
     transition: background-color 0.5s ease-in-out;
 }
 
@@ -39,7 +42,33 @@ h1{
 }
 
 /* seccion destacados (CARD) */
-.card-body{
+.card-body {
     background-color: #0dcaf0;
     color: white;
+}
+
+/* Seccion contacto (TOOLTIP)*/
+.btn {
+    background-color: #0dcaf0;
+}
+
+/* footer */
+footer {
+    background-color: #0dcaf0;
+    height: 10%;
+}
+
+footer p {
+    text-align: center;
+    padding-top: 2%;
+}
+
+footer div {
+    text-align: center;
+    padding-top: 2%;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
 }

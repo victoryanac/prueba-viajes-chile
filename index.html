@@ -71,11 +71,9 @@
         </button>
     </div>
     <!-- quienes somos seccion -->
-    <section>
+    <section class="d-none d-sm-block">
         <h1>¿QUIENES SOMOS?</h1>
         <hr>
-    </SEction>
-    <SEction>
         <div class="row">
             <div class="col-lg-4 col-xs-1">
                 <div class="icons col-lg-4 col-xs-1"><i class="fa-solid fa-plane"></i></div>
@@ -85,7 +83,6 @@
             </div>
             <div class="col-lg-4 col-xs-1">
                 <div class="icons col-lg-4 col-xs-1"><i class="fa-solid fa-location-pin"></i></div>
-
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In velit error quasi praesentium cupiditate
                     enim reiciendis tempore obcaecati, mollitia at laborum aperiam quibusdam pariatur eum necessitatibus
                     saepe eligendi harum. Quas!</p>
@@ -93,7 +90,7 @@
             <div class="col-lg-4 col-xs-1">
                 <div class="icons col-lg-4 col-xs-1"><i class="fa-solid fa-route"></i></div>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et pariatur blanditiis aliquam iste itaque
-                    beatae recusandae deleniti! Quo, magnam  error velit magni harum vero asperiores
+                    beatae recusandae deleniti! Quo, magnam error velit magni harum vero asperiores
                     deleniti at exercitationem?</p>
             </div>
         </div>
@@ -101,8 +98,8 @@
     <section>
         <h1>DESTACADOS</h1>
         <!-- card -->
-        <div class="row row-col-lg-4 col-xs-1">
-            <div class="col">
+        <div class="row ">
+            <div class="col-lg-4 col-xs-1 mb-2">
                 <div class="card">
                     <img src="./assets/img/card1.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -113,7 +110,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-lg-4 col-xs-1 mb-2">
                 <div class="card">
                     <img src="./assets/img/card2.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -124,7 +121,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-lg-4 col-xs-1 mb-2">
                 <div class="card">
                     <img src="./assets/img/card4.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -137,7 +134,6 @@
             </div>
         </div>
     </section>
-
     <section>
         <hr>
         <h1>CONTACTO</h1>
@@ -155,25 +151,29 @@
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
         <!-- tooltip -->
-        <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top"
-            data-bs-custom-class="custom-tooltip" data-bs-title="This top tooltip is themed via CSS variables.">
+        <button id="enviarCorreo" type="button" class="btn btn-secondary tooltip-mobile" data-bs-toggle="tooltip"
+            data-bs-placement="top" data-bs-title="Presiona para enviar mensaje">
             Enviar
         </button>
     </section>
     </button>
-
     <!-- footer -->
-    <div class="row">
+    <footer class="row">
         <p class="col-6">VIAJES CHILE</p>
         <div class="col-6">
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-twitter"></i>
-        </div>
-
-    </div>
-
-
+            <a href="https://www.facebook.com/tuNombreDeUsuario" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/tuNombreDeUsuario" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://twitter.com/tuNombreDeUsuario" target="_blank">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/tuNombreDeUsuario" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+    </footer>
     <!-- bustrap js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
