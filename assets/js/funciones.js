@@ -17,4 +17,18 @@ $("#enviarCorreo").click(
         alert("Tu mensaje fue enviado correctamente...");
     }
 )
-
+/*  smooth scroll*/
+$(document).ready(function () {
+    $("a").on('click', function (event) {
+        if (this.hash !== "") {
+            event.preventDefault();
+            var hash = this.hash;
+            var navbarOffset = $('.navbar').outerHeight();
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top - navbarOffset
+            }, 800, function () {
+                window.location.hash = hash;
+            });
+        }
+    });
+});
